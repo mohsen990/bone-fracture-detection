@@ -1,0 +1,72 @@
+# Train single classifier
+python train_single_model.py --model resnet50 --epochs 50
+python train_single_model.py --model resnet101 --epochs 50
+python train_single_model.py --model efficientnet_b0 --epochs 50
+python train_single_model.py --model efficientnet_b3 --epochs 50
+OR train all classifiers at once:
+
+
+python examples/train_all_models.py
+This will train ResNet50, ResNet101, EfficientNet-B0, and EfficientNet-B3 sequentially.
+
+
+# Train single classifier
+python train_single_model.py --model resnet50 --epochs 50
+python train_single_model.py --model resnet101 --epochs 50
+python train_single_model.py --model efficientnet_b0 --epochs 50
+python train_single_model.py --model efficientnet_b3 --epochs 50
+OR train all classifiers at once:
+
+
+python examples/train_all_models.py
+This will train ResNet50, ResNet101, EfficientNet-B0, and EfficientNet-B3 sequentially.
+
+2. YOLO Detection Model (What you just fixed)
+
+python run_yolo_training.py
+This trains YOLOv8 for fracture detection.
+
+3. Ensemble Model (After individual models are trained)
+
+python examples/train_ensemble.py
+
+
+
+
+--------------------------------------------------
+
+📋 Quick Reference - All Commands in Order
+
+# ============================================
+# COMPLETE PROJECT EXECUTION SCRIPT
+# ============================================
+
+# 0. Navigate to project
+cd "D:\University\fifth Semester\Computer Vision\FinalProject\bone-fracture-detection"
+
+# From project root
+cd bone-fracture-detection
+venv\Scripts\activate
+
+# 1. Train classification models
+cd examples
+python train_single_model.py --model resnet50 --epochs 50
+python train_single_model.py --model resnet101 --epochs 50
+python train_single_model.py --model efficientnet_b0 --epochs 50
+python train_single_model.py --model efficientnet_b3 --epochs 50
+
+# 2. Train YOLO detection model
+cd ..
+python run_yolo_training.py
+
+# 3. Train ensemble model
+cd examples
+python train_ensemble.py
+
+# 4. Generate report
+cd ..
+python generate_report.py
+
+# 5. Launch web app
+cd deployment
+streamlit run app.py
