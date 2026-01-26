@@ -62,7 +62,7 @@ This project implements a multi-model approach for bone fracture detection in X-
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/bone-fracture-detection.git
+git clone https://github.com/mohsen990/bone-fracture-detection.git
 cd bone-fracture-detection
 
 # Create virtual environment
@@ -552,9 +552,9 @@ If you use this project in your research, please cite:
 ```bibtex
 @software{bone_fracture_detection,
   title = {Bone Fracture Detection System},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/bone-fracture-detection}
+  author = {Mohsen},
+  year = {2026},
+  url = {https://github.com/mohsen990/bone-fracture-detection.git}
 }
 ```
 
@@ -569,8 +569,4 @@ If you use this project in your research, please cite:
 
 ---
 
-## Contact
 
-For questions or issues:
-- Open an issue on GitHub
-- Email: your.email@example.com
