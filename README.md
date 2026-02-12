@@ -1,4 +1,5 @@
 # Bone Fracture Detection System
+<img width="1050" height="1050" alt="image" src="https://github.com/user-attachments/assets/930a8bb2-5a99-4b6c-9960-0a62c45feda5" />
 
 A comprehensive deep learning system for detecting and localizing bone fractures in X-ray images using state-of-the-art classification and object detection models.
 
