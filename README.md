@@ -102,6 +102,8 @@ tqdm>=4.65.0
 ## Dataset Structure
 
 ### Classification Dataset
+Dataset: https://www.kaggle.com/datasets/pkdarabi/bone-fracture-detection-computer-vision-project?resource=download
+<img width="2109" height="88" alt="image" src="https://github.com/user-attachments/assets/9eac99c0-56de-4efa-8d42-be30a381e6ca" />
 
 ```
 data/
@@ -569,5 +571,17 @@ If you use this project in your research, please cite:
 - torchvision for pre-trained models
 
 ---
+
+
+<img width="507" height="309" alt="image" src="https://github.com/user-attachments/assets/ac53bb96-56bd-4cad-9519-19bcfc3f26dc" />
+
+<img width="3828" height="1770" alt="image" src="https://github.com/user-attachments/assets/1e17dfee-43c9-46be-8600-df5b410834a2" />
+
+<img width="708" height="472" alt="image" src="https://github.com/user-attachments/assets/8b11e8d3-56b5-4f81-bb33-c99c8856b3f3" />
+
+<img width="710" height="457" alt="image" src="https://github.com/user-attachments/assets/995131d2-8e5c-4ac5-83a6-443acc115630" />
+
+<img width="675" height="533" alt="image" src="https://github.com/user-attachments/assets/7a93a307-952d-4c1f-b2fa-7c88e523a7ec" />
+
 
 
